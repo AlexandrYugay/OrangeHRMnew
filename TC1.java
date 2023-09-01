@@ -75,5 +75,6 @@ public class TC1 extends BaseDriver {
         WebElement dashboard = driver.findElement(By.xpath("//h6[text()=\"Dashboard\"]"));
 
         Assert.assertTrue(dashboard.isDisplayed());
+
     }
 }
